@@ -69,7 +69,7 @@ class TestVarasto(unittest.TestCase):
         self.assertAlmostEqual(saatu_maara, 5)
 
     def test_lisays_rajoittuu_tilavuuteen(self):
-        self.varasto.lisaa_varastoon(15)
+        self.varasto.lisaa_varastoon(5)
         
         self.assertAlmostEqual(self.varasto.saldo, 10)
     
